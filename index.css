@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin-top: 10%;
+  padding: 0;
+  background: pink;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    margin-top: 45%;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.space {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #006570;
+}
+
+button:focus {
+  outline: none;
+}
+
+#increment-btn {
+  display: inline-block;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 47px;
+  line-height: 34px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ce2f64;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+}
+
+#increment-btn:hover {
+  color: white;
+  background-color: #b11c4e;
+}
+
+#decrement-btn {
+  display: inline-block;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 47px;
+  line-height: 34px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: darkorange;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+}
+
+#decrement-btn:hover {
+  color: white;
+  background-color: rgb(156, 91, 11);
+}
+
+#reset-btn {
+  display: inline-block;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 47px;
+  line-height: 34px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: darkviolet;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+}
+
+#reset-btn:hover {
+  color: white;
+  background-color: rgb(92, 9, 128);
+}
+
+#save-btn {
+  background: darkgreen;
+}
